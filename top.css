@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    font-size: 14px;
+    font-family: Montserrat;
+    color: white;
+    padding: 0;
+    margin: 0;
+    user-select: none;
+}
+body {
+    background-image: url(https://zapodaj.net/images/4a3392c9f3e2d.png);
+    background-repeat: no-repeat;
+    margin: 5px 100px 5px 100px;
+}
+
+table {
+    border-spacing: 3px;
+    width: 100%;
+}
+h1 { font-size: 20px; }
+td {
+    border-radius: 3px;
+    padding: 4px;
+    margin: 4px;
+    text-align: center;
+    background-color: #B8860B;
+}
+.img {
+    filter: invert(1);
+    width: 80px;
+    height: 30px;
+}
+.png {
+    filter: invert(1);
+    width: 32px;
+    height: 32px;
+}
+td:nth-child(1) {
+    width: 5%;
+}
+
+td:nth-child(2) {
+    width: 15%;
+}
+
+td:nth-child(3) {
+    width: 10%;
+}
+td:nth-child(4) {
+    width: 10%;
+}
+td:nth-child(5) {
+    width: 20%;
+}
+#one {
+    background: rgb(255, 0, 0);
+}
+
+#two {
+    background: rgb(0, 140, 255);
+}
+
+#three {
+    background: rgb(0, 100, 0);
+}
